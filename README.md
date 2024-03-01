@@ -12,6 +12,6 @@
 
 7.run_non_deepdecoder_nonlog.py the same as run_non_deepdecoder.py, but not transformed to log domain 
 
-8.run_non_dip.py is for for shared weights between emitters using DIP(skip) model
+8.run_non_dip.py is for for shared weights between emitters using DIP(skip) model, which is saved in model folder
 
 9.run_non_dip_nonlog.py is same as run_non_dip.py, but not transformed to log domain.
