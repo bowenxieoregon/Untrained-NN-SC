@@ -1,7 +1,0 @@
-
-ite 0
-Traceback (most recent call last):
-  File "/nfs/stak/users/xiebo/week2/mytry.py", line 199, in <module>
-    data = X_from_slf_temp.cpu().numpy() * (T_max - T_min) + T_min
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'numpy.ndarray' and 'Tensor'
