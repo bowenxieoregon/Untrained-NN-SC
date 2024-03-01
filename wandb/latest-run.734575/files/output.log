@@ -1,0 +1,9 @@
+
+ite 0
+Traceback (most recent call last):
+  File "/nfs/stak/users/xiebo/week2/mytry.py", line 193, in <module>
+    es.update_av(np.pow(10, X_from_slf_temp.cpu().numpy()),i)
+                 ^^^^^^
+  File "/nfs/hpc/share/xiebo/sc/lib/python3.11/site-packages/numpy/__init__.py", line 333, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'pow'
